@@ -61,7 +61,7 @@ function signup(){
     .then((userCredential) => {
       // Signed in
       var user = userCredential.user;
-      window.location.replace('https://github.com/sadiqshah786/Fusion-Creative-Website')
+      window.location.replace('https://github.com/sadiqshah786/User-Authentication')
       // console.log(user)
       // swal(user)  
       // alert("login")
