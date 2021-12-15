@@ -690,6 +690,80 @@ section.form{
     font-family: Merriweather-Light;
     color: #181818;
 }
+.login_now{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.login_now a{
+    font-family: Merriweather-Light;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+.back-home-link a i {
+    margin-right: 18px;
+}
+@keyframes slide1 {
+    0%,
+    100% {
+      transform: translate(0, 0);
+    }
+  
+    50% {
+      transform: translate(10px, 0);
+    }
+  }
+  
+  @keyframes slide2 {
+    0%,
+    100% {
+      transform: translate(0, 0) rotate(45deg);
+    }
+  
+    50% {
+      transform: translate(10px, 10px) rotate(45deg);
+    }
+  }
+  
+  @keyframes slide3 {
+    0%,
+    100% {
+      transform: rotate(-45deg);
+    }
+  
+    50% {
+      transform: rotate(45deg);
+    }
+  }
+  
+  @keyframes slide4 {
+    0% {
+      transform: rotate(0);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  i {
+    color: rgb(240, 240, 245);
+    margin-left: 20px;
+  }
+  
+  .arrow1 {
+    animation: slide1 1s ease-in-out infinite;
+    margin-left: 9px;
+  }
+  section.backtohome {
+    background: #313030;
+}
+.back-home-link a {
+    color: #fff;
+    text-decoration: none;
+}
+.back-home-link {
+    padding: 10px;
+}
 @media screen and (max-width:1024px) {
     .heading {
         width: 65%;
