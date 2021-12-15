@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fusion - Creative Website</title>
+        <link rel="icon" type="image/png" href="img/favicon.png"/>
+        <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+        <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+<body>
+    <section class="nav-top">
+        <div class="container">
+            <div class="row both">
+                <div class="col-md-10">
+                    <div class="top_nav">
+                        <p>Get a Layout Code just Registration / login</p>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div  class="inner-login">
+                        <ul class="main-ul">
+                          <li><a href="#"><span><i class='fa fa-user-circle'></i></span></a>
+                            <ul class="dropdown">
+                              <li><a href="signIn.html">Log In</a></li>
+                              <li><a href="signup.html">Sign Up</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </nav>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </section>
+<section class="form">
+    <div class="container">
+        <div class="row form-signup-row">
+            <div class="col-md-6 ">
+                <div class="signup-img login-img">
+
+                </div>
+            </div>
+           
+            <div class="col-md-6">
+                    <div class="form-signup">
+                        <!-- <div class="form-group input-feild">
+                            <input type="text" class="form-control" id="email-login" aria-describedby="emailHelp" placeholder="Enter First name">
+                            <input type="text" class="form-control" id="email-login" aria-describedby="emailHelp" placeholder="Enter Last name">
+                          </div> -->
+                        <div class="form-group">
+                        
+                          <input type="email" class="form-control" id="email-login" aria-describedby="emailHelp" placeholder="Enter email">
+                          <!-- <input type="tel" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter Phone Number"> -->
+                        </div>
+                        <div class="form-group">
+                         
+                          <input type="password" class="form-control" id="password-login" placeholder="Password">
+                          <!-- <input type="Confrim-password" class="form-control" id="password" placeholder="Confirm Password"> -->
+                        </div>
+                    <button id="signup" class="btn btn-primary" onclick="login()">Login</button>
+                    </div>
+                   
+            </div>
+        </div>
+    </div>
+</section>
+
+   
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+            apiKey: "AIzaSyADH4M48ajZEaKXnj1gcRBw00FionBmgeE",
+            authDomain: "authentication-app-43cd4.firebaseapp.com",
+            databaseURL: "https://authentication-app-43cd4-default-rtdb.firebaseio.com",
+            projectId: "authentication-app-43cd4",
+            storageBucket: "authentication-app-43cd4.appspot.com",
+            messagingSenderId: "163940578970",
+            appId: "1:163940578970:web:15ecf49ebd03c69b571123"
+            };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+
+     <script src="app.js"></script>
+     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+
+  
+</html>
